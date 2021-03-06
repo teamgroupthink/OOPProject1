@@ -21,8 +21,8 @@ getting in the weeds to far and burying ourselves
   - class hierarchy
 
 
-[ ] basic text adventure ?
-[ ] RPG character generator and character sheet maker ?
+[ ] basic text adventure
+[ ] RPG character generator and character sheet maker
 [ ] (don't get an erection Patrick) simple chess simulator ?
 [ ] Tire shop inventory and sales system
 [ ] household inventory system
