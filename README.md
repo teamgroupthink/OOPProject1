@@ -2,7 +2,7 @@
 
 activity log began 3-6-2021
 
-ideas
-[x] microsoft teams bot[x] - changed mind, annoying account creation and bs from microsoft.  
+ideas  
+[no] microsoft teams bot - changed mind, annoying account creation and bs from microsoft.  
 [ ] inventory ?  
 [ ] java game ?
