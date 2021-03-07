@@ -35,3 +35,8 @@ my ideas
 - [ ] basic restaurant PoS system
 - [ ] animal classification system
 - [ ] movie inventory system with different classes for different movie genre
+
+my considerations
+- [ ] turn based strategy war game incorporate Coast Guard
+- [ ] stock ticker/ recommendation / store
+
