@@ -39,4 +39,5 @@ my ideas
 my considerations
 - [ ] turn based strategy war game incorporate Coast Guard
 - [ ] stock ticker/ recommendation / store
+- [ ] Teaching program like an interactive teaching all the listed items
 
