@@ -20,7 +20,7 @@ getting in the weeds to far and burying ourselves
   - exception handling
   - class hierarchy
 
-
+<p>
 [ ] basic text adventure
 [ ] RPG character generator and character sheet maker
 [ ] (don't get an erection Patrick) simple chess simulator ?
@@ -34,6 +34,7 @@ getting in the weeds to far and burying ourselves
 [ ] book inventory
 [ ] basic restaurant PoS system
 [ ] animal classification system
+</p>
 ...
 
 
