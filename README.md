@@ -34,3 +34,4 @@ my ideas
 - [ ] book inventory
 - [ ] basic restaurant PoS system
 - [ ] animal classification system
+- [ ] movie inventory system with different classes for different movie genre
