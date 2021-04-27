@@ -18,9 +18,7 @@ public class HazMatMain {
 
 			System.out.println("hey");
 			employeeTest();
-//			MSDSObject test = new MSDSObject();
-//			test.Ask_and_Set_All_Input();
-			
+
 		}
 
 		//testing for employee class hierarchy
@@ -29,5 +27,10 @@ public class HazMatMain {
 					"A","12/7/1979","night","Stewards");
 			System.out.println(test.toString());
 		}
-	
+
+		//testing for MSDSObject class
+		public static void MSDSTest() {
+			MSDSObject test = new MSDSObject();
+			test.Ask_and_Set_All_Input();
+		}
 }

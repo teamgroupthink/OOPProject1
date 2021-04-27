@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class HazMatInventory {
 
     //Item of Haz Mat to be inventoried
-    public class HazMatItem {
+    public static class HazMatItem {
         String name;
         String stockNumber;
         int hazMatClass;
@@ -61,6 +61,9 @@ public class HazMatInventory {
         }
 
     }
+
+    //another possible interface opportunity?
+    //public interface HazMatInventoryAccess {}
 
     //NOT THREAD SAFE / SELF-SYNCHRONIZING!!!
     private ArrayList<HazMatItem> HazMatStock = new ArrayList<>();
