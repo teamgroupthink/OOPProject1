@@ -229,22 +229,22 @@ public class MSDSObject
 
     public void Ask_and_Set_All_Input()
     {
-        this.S1_Identification = JOptionPane.showInputDialog(Array_Of_Section_Information[0]);
-        this.S2_Hazards_Identification = JOptionPane.showInputDialog(Array_Of_Section_Information[1]);
-        this.S3_Composition_Information_Ingredients = JOptionPane.showInputDialog(Array_Of_Section_Information[2]);
-        this.S4_First_Aid_Measures = JOptionPane.showInputDialog(Array_Of_Section_Information[3]);
-        this.S5_Fire_Fighting_Measures = JOptionPane.showInputDialog(Array_Of_Section_Information[4]);
-        this.S6_Accidental_Release_Measures = JOptionPane.showInputDialog(Array_Of_Section_Information[5]);
-        this.S7_Handling_and_Storage = JOptionPane.showInputDialog(Array_Of_Section_Information[6]);
-        this.S8_Exposure_Controls_Personal_Protection = JOptionPane.showInputDialog(Array_Of_Section_Information[7]);
-        this.S9_Physical_and_Chemical_Properties = JOptionPane.showInputDialog(Array_Of_Section_Information[8]);
-        this.S10_Stability_and_Reactivity = JOptionPane.showInputDialog(Array_Of_Section_Information[9]);
-        this.S11_Toxicological_Information = JOptionPane.showInputDialog(Array_Of_Section_Information[10]);
-        this.S12_Ecological_Information = JOptionPane.showInputDialog(Array_Of_Section_Information[11]);
-        this.S13_Disposal_Considerations = JOptionPane.showInputDialog(Array_Of_Section_Information[12]);
-        this.S14_Transport_Information = JOptionPane.showInputDialog(Array_Of_Section_Information[13]);
-        this.S15_Regulatory_Information = JOptionPane.showInputDialog(Array_Of_Section_Information[14]);
-        this.S16_Other_Information = JOptionPane.showInputDialog(Array_Of_Section_Information[15]);
+        this.S1_Identification = JOptionPane.showInputDialog(null,Array_Of_Section_Information[0],"Section 1",JOptionPane.INFORMATION_MESSAGE );
+        this.S2_Hazards_Identification = JOptionPane.showInputDialog(null,Array_Of_Section_Information[1],"Section 2",JOptionPane.INFORMATION_MESSAGE );
+        this.S3_Composition_Information_Ingredients = JOptionPane.showInputDialog(null,Array_Of_Section_Information[2],"Section 3",JOptionPane.INFORMATION_MESSAGE );
+        this.S4_First_Aid_Measures = JOptionPane.showInputDialog(null,Array_Of_Section_Information[3],"Section 4",JOptionPane.INFORMATION_MESSAGE );
+        this.S5_Fire_Fighting_Measures = JOptionPane.showInputDialog(null,Array_Of_Section_Information[4],"Section 5",JOptionPane.INFORMATION_MESSAGE );
+        this.S6_Accidental_Release_Measures = JOptionPane.showInputDialog(null,Array_Of_Section_Information[5],"Section 6",JOptionPane.INFORMATION_MESSAGE );
+        this.S7_Handling_and_Storage = JOptionPane.showInputDialog(null,Array_Of_Section_Information[6],"Section 7",JOptionPane.INFORMATION_MESSAGE );
+        this.S8_Exposure_Controls_Personal_Protection = JOptionPane.showInputDialog(null,Array_Of_Section_Information[7],"Section 8",JOptionPane.INFORMATION_MESSAGE );
+        this.S9_Physical_and_Chemical_Properties = JOptionPane.showInputDialog(null,Array_Of_Section_Information[8],"Section 9",JOptionPane.INFORMATION_MESSAGE );
+        this.S10_Stability_and_Reactivity = JOptionPane.showInputDialog(null,Array_Of_Section_Information[9],"Section 10",JOptionPane.INFORMATION_MESSAGE );
+        this.S11_Toxicological_Information = JOptionPane.showInputDialog(null,Array_Of_Section_Information[10],"Section 11",JOptionPane.INFORMATION_MESSAGE );
+        this.S12_Ecological_Information = JOptionPane.showInputDialog(null,Array_Of_Section_Information[11],"Section 12",JOptionPane.INFORMATION_MESSAGE );
+        this.S13_Disposal_Considerations = JOptionPane.showInputDialog(null,Array_Of_Section_Information[12],"Section 13",JOptionPane.INFORMATION_MESSAGE );
+        this.S14_Transport_Information = JOptionPane.showInputDialog(null,Array_Of_Section_Information[13],"Section 14",JOptionPane.INFORMATION_MESSAGE );
+        this.S15_Regulatory_Information = JOptionPane.showInputDialog(null,Array_Of_Section_Information[14],"Section 15",JOptionPane.INFORMATION_MESSAGE );
+        this.S16_Other_Information = JOptionPane.showInputDialog(null,Array_Of_Section_Information[15],"Section 16",JOptionPane.INFORMATION_MESSAGE );
 
     }
 
