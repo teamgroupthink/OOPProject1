@@ -18,11 +18,14 @@ public class HazMatMain {
 
 			System.out.println("hey");
 			employeeTest();
+//			MSDSObject test = new MSDSObject();
+//			test.Ask_and_Set_All_Input();
 			
 		}
 
+		//testing for employee class hierarchy
 		public static void employeeTest(){
-			HM_Employee test = new HM_Employee("Capt Stubing","Isaac Washinton","9/24/1977",
+			HazMatEmployee test = new HazMatEmployee("Capt Stubing","Isaac Washinton","9/24/1977",
 					"A","12/7/1979","night","Stewards");
 			System.out.println(test.toString());
 		}

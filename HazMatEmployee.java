@@ -1,4 +1,4 @@
-public class HM_Employee {
+public class HazMatEmployee {
 
     private String supervisor;
     private String name;
@@ -8,7 +8,7 @@ public class HM_Employee {
     private String shift;
     private String shop;
 
-    public HM_Employee(String supervisor, String name, String hired, String certificationLevel,
+    public HazMatEmployee(String supervisor, String name, String hired, String certificationLevel,
                        String userCertification, String shift, String shop) {
         this.supervisor = supervisor;
         this.name = name;
@@ -90,8 +90,8 @@ public class HM_Employee {
     }
 }
 
-class HM_Issuer extends HM_Employee{
-    public HM_Issuer(String supervisor, String name, String hired, String certificationLevel,
+class HazMatIssuer extends HazMatEmployee{
+    public HazMatIssuer(String supervisor, String name, String hired, String certificationLevel,
                      String userCertification, String shift, String shop) {
         super(supervisor, name, hired, certificationLevel, userCertification, shift, shop);
     }
@@ -103,9 +103,9 @@ class HM_Issuer extends HM_Employee{
     public void getAccidentReport() {}
 }
 
-class HM_Manager extends HM_Employee{
+class HazMatManager extends HazMatEmployee{
 
-    public HM_Manager(String supervisor, String name, String hired, String certificationLevel,
+    public HazMatManager(String supervisor, String name, String hired, String certificationLevel,
                       String userCertification, String shift, String shop) {
         super(supervisor, name, hired, certificationLevel, userCertification, shift, shop);
     }
@@ -121,8 +121,8 @@ class HM_Manager extends HM_Employee{
     private void grantOverride() {}
 }
 
-class HM_Cleaner extends HM_Employee{
-    public HM_Cleaner(String supervisor, String name, String hired, String certificationLevel,
+class HazMatCleaner extends HazMatEmployee{
+    public HazMatCleaner(String supervisor, String name, String hired, String certificationLevel,
                       String userCertification, String shift, String shop) {
         super(supervisor, name, hired, certificationLevel, userCertification, shift, shop);
     }
