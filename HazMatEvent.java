@@ -26,7 +26,7 @@ public class HazMatEvent {
 	// Haz Mat Event details below
 	// =======================
 
-	private vector<HazMatEvent> eventLog; // 
+//	private vector<HazMatEvent> eventLog; //
 
 	private String incidentName; // short description of event .. "March 3 Oil Spill"
 	private LocalDateTime timeOfEvent; // LocalTime newTime = new LocalDateTime.now();
@@ -45,11 +45,11 @@ public class HazMatEvent {
 	
 	// Methods  %% rough draft %% need to decide on arguments
 	
-	public void createHazMatEvent();
+//	public void createHazMatEvent();
 	
-	public void updateHazMatEvent(); // %% need to add arguments
-	public void createAccountReport(); 
-	public void checkInventory(String item);
+//	public void updateHazMatEvent(); // %% need to add arguments
+//	public void createAccountReport();
+//	public void checkInventory(String item);
 	
 
 }
