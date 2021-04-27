@@ -3,17 +3,15 @@ public class HazMatEmployee {
     private String supervisor;
     private String name;
     private String hired;
-    private String certificationLevel;
     private String userCertification;
     private String shift;
     private String shop;
 
-    public HazMatEmployee(String supervisor, String name, String hired, String certificationLevel,
+    public HazMatEmployee(String supervisor, String name, String hired,
                        String userCertification, String shift, String shop) {
         this.supervisor = supervisor;
         this.name = name;
         this.hired = hired;
-        this.certificationLevel = certificationLevel;
         this.userCertification = userCertification;
         this.shift = shift;
         this.shop = shop;
@@ -27,8 +25,8 @@ public class HazMatEmployee {
 
     @Override
     public String toString() {
-        return String.format("Supervisor: %s%nName: %s%nHired: %s%nCert level: %s%nCert expiration: %s%n" +
-                        "Shift: %s%nShop: %s",getSupervisor(),getName(),getHired(),getCertificationLevel(),
+        return String.format("Supervisor: %s%nName: %s%nHired: %s%nCert expiration: %s%n" +
+                        "Shift: %s%nShop: %s",getSupervisor(),getName(),getHired(),
                 getUserCertification(),getShift(),getShop());
     }
 
@@ -55,14 +53,6 @@ public class HazMatEmployee {
 
     public void setHired(String hired) {
         this.hired = hired;
-    }
-
-    public String getCertificationLevel() {
-        return certificationLevel;
-    }
-
-    public void setCertificationLevel(String certificationLevel) {
-        this.certificationLevel = certificationLevel;
     }
 
     public String getUserCertification() {
@@ -93,7 +83,7 @@ public class HazMatEmployee {
 class HazMatIssuer extends HazMatEmployee{
     public HazMatIssuer(String supervisor, String name, String hired, String certificationLevel,
                      String userCertification, String shift, String shop) {
-        super(supervisor, name, hired, certificationLevel, userCertification, shift, shop);
+        super(supervisor, name, hired, userCertification, shift, shop);
     }
 
     public void acceptInventory() {}
@@ -107,7 +97,7 @@ class HazMatManager extends HazMatEmployee{
 
     public HazMatManager(String supervisor, String name, String hired, String certificationLevel,
                       String userCertification, String shift, String shop) {
-        super(supervisor, name, hired, certificationLevel, userCertification, shift, shop);
+        super(supervisor, name, hired, userCertification, shift, shop);
     }
 
     private void createHMEmployee() {}
@@ -124,7 +114,7 @@ class HazMatManager extends HazMatEmployee{
 class HazMatCleaner extends HazMatEmployee{
     public HazMatCleaner(String supervisor, String name, String hired, String certificationLevel,
                       String userCertification, String shift, String shop) {
-        super(supervisor, name, hired, certificationLevel, userCertification, shift, shop);
+        super(supervisor, name, hired, userCertification, shift, shop);
     }
 
     private void requestAccidentReportClose() {}

@@ -24,7 +24,7 @@ public class HazMatMain {
 		//testing for employee class hierarchy
 		public static void employeeTest(){
 			HazMatEmployee test = new HazMatEmployee("Capt Stubing","Isaac Washinton","9/24/1977",
-					"A","12/7/1979","night","Stewards");
+				"12/7/1979","night","Stewards");
 			System.out.println(test.toString());
 		}
 
