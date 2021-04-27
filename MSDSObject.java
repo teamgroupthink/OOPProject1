@@ -226,7 +226,7 @@ public class MSDSObject
                 "be included here.";
 
     }
-//
+
     public void Ask_and_Set_All_Input()
     {
         this.S1_Identification = JOptionPane.showInputDialog(null,Array_Of_Section_Information[0],"Section 1",JOptionPane.INFORMATION_MESSAGE );
