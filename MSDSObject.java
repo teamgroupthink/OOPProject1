@@ -18,7 +18,7 @@ public class MSDSObject
     private String S14_Transport_Information;
     private String S15_Regulatory_Information;
     private String S16_Other_Information;
-//
+
     public int number_of_sections;
 
     public String[] Array_Of_Section_Information;
