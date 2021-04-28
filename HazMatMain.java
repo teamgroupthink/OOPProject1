@@ -15,10 +15,16 @@ import java.util.Date;
 public class HazMatMain {
 
 		public static void main(String[] args){
-
 			System.out.println("hey");
 			employeeTest();
+			inventoryTest();
+		}
 
+		//testing for HazMatInventory
+		public static void inventoryTest() {
+			HazMatInventory test = new HazMatInventory();
+			test.addHazMatItemToInventory();
+			System.out.println(test.toString());
 		}
 
 		//testing for employee class hierarchy
