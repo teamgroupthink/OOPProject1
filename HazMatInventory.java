@@ -88,6 +88,7 @@ public class HazMatInventory {
         }
 
         public static HazMatItem createHazMatItem() {
+            System.out.println("Enter data for HazMat Item to be added:");
             Scanner scanner = new Scanner(System.in);
             System.out.print("Name: ");
             String name = scanner.nextLine();
@@ -95,10 +96,11 @@ public class HazMatInventory {
             String stockNumber = scanner.nextLine();
             System.out.print("HazMat Category: ");
             HazMatCategory hazMatCategory = HazMatCategory.FLAMMABLE;
-            System.out.print("Storage Area: ");
+            System.out.print("\nStorage Area: ");
             StorageArea storageArea = StorageArea.COMMON;
-            System.out.print("Shelf Location: ");
+            System.out.print("\nShelf Location: ");
             String shelfLocation = scanner.nextLine();
+            //add invalid input exception test
             System.out.print("Quantity in stock: ");
             int stock = scanner.nextInt();
             return new HazMatItem(name, stockNumber, hazMatCategory, storageArea,
